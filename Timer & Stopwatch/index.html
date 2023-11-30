@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Customizable Timer</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<span><h1><a href="index.html" class="active">Timer</a><a href="index2.html">       Stopwatch</a></h1></span>
+  <div class="timer">
+    <input type="number" id="hours" placeholder="Hours">
+    <input type="number" id="minutes" placeholder="Minutes">
+    <input type="number" id="seconds" placeholder="Seconds">
+    <button onclick="startCustomTimer()">Start</button>
+    <button onclick="pauseCustomTimer()">Pause</button>
+    <button onclick="resetCustomTimer()">Reset</button>
+    <h1 id="display">00:00:00</h1>
+  </div>
+ 
+  <script src="script.js"></script>
+</body>
+</html>
